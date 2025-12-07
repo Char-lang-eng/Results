@@ -2,17 +2,17 @@ let audio = [];
 let playing = false
 let key = 0
 let done;
-done = new Audio("attached_assets/Result.mp3")
-start = new Audio("attached_assets/Start.mp3")
-danger = new Audio("attached_assets/Danger.mp3")
-audio.push(new Audio("attached_assets/First_Key.mp3"));
-audio.push(new Audio("attached_assets/Second_Key.mp3"));
-audio.push(new Audio("attached_assets/Third_Key.mp3"));
-audio.push(new Audio("attached_assets/Fourth_Key.mp3"));
-audio.push(new Audio("attached_assets/Fifth_Key.mp3"));
-audio.push(new Audio("attached_assets/Sixth_Key.mp3"));
-audio.push(new Audio("attached_assets/Seventh_Key.mp3"));
-audio.push(new Audio("attached_assets/Eighth_Key.mp3"));
+done = new Audio("Result.mp3")
+start = new Audio("Start.mp3")
+danger = new Audio("Danger.mp3")
+audio.push(new Audio("First_Key.mp3"));
+audio.push(new Audio("Second_Key.mp3"));
+audio.push(new Audio("Third_Key.mp3"));
+audio.push(new Audio("Fourth_Key.mp3"));
+audio.push(new Audio("Fifth_Key.mp3"));
+audio.push(new Audio("Sixth_Key.mp3"));
+audio.push(new Audio("Seventh_Key.mp3"));
+audio.push(new Audio("Eighth_Key.mp3"));
 
 
 function setup() {
